@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Cadastro</h3>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-12">
+
+            <div class="cadastro">
+
+                <form action="@Url.Action("CadastroUsuario", "Cadastro")" method="post">
+
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input placeholder="nome" type="text" value="" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input placeholder="email" type="text" value="" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Senha</label>
+                        <input placeholder="senha" type="text" value="" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Data de Nascimento</label>
+                        <input placeholder="nascimento" type="date" value="" />
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-outline-success">Enviar</button>
+                        <button type="button" class="btn btn-outline-danger">Cancelar</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        alert("Olá, obrigado por cadastrar-se e Seja bem vindo!!!");
+    </script>
+}
+

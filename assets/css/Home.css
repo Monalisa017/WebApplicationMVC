@@ -1,0 +1,22 @@
+﻿body {
+    background-image: url(../images/Fundo_Site.jpg);
+    background-size: cover;
+    
+}
+
+.btn {
+    border-radius: 20px;
+    border-color: black;
+}
+image {
+    height: auto;
+    width: auto;
+}
+
+.image.img {
+    width: 100%;
+    margin: 10%;
+    margin-top: 40%;
+    margin-left: 20%;
+    image-orientation: from-image;
+}
